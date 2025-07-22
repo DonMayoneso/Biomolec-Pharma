@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Adaptessens",
+        "precio": 15.99,
+        "imagen": "https://biomolec.com/wp-content/uploads/2018/06/adaptassense.jpg",
+        "descripcion": "Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Concentración"
+    },
+    {
+        "id": 2,
+        "nombre": "Calmessens",
+        "precio": 10.99,
+        "imagen": "https://biomolec.com/wp-content/uploads/2018/06/calmessens.jpg",
+        "descripcion": "Fórmula con Colina, Vitamina B1, Niacina, Ácido Pantoténico y Manganeso. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Calmantes"
+    },
+    {
+        "id": 3,
+        "nombre": "Colessens",
+        "precio": 9.99,
+        "imagen": "https://biomolec.com/wp-content/uploads/2020/05/colessens-ruiz-pharma.jpg",
+        "descripcion": "Fórmula con Bergamota, Ajo, Corteza de Pino, Saccharum officinarum, Magnesio y Vitaminas esenciales. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Concentración"
+    },
+    {
+        "id": 4,
+        "nombre": "Coraessens",
+        "precio": 7.99,
+        "imagen": "https://biomolec.com/wp-content/uploads/2020/01/Coraessens.jpg",
+        "descripcion": "Fórmula con Corazón Bovino liofilizado, Magnesio, Metilcobalamina, Piridoxal-5-Fosfato y L-5 Metiltetrahidrofolato. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Calmantes"
+    },
+    {
+        "id": 5,
+        "nombre": "Curcetin",
+        "precio": 5.55,
+        "imagen": "https://biomolec.com/wp-content/uploads/2018/06/curcetin.jpg",
+        "descripcion": "Fórmula con Magnesio, Vitamina C, Curcuma longa l y Quercitina. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Concentración"
+    },
+    {
+        "id": 6,
+        "nombre": "Lechuguin",
+        "precio": 6.55,
+        "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/3REV53527RABTL2YCEI3KJZWAM.jpg",
+        "descripcion": "Soy una fokin lechuga",
+        "categoria": "Concentración"
+    },
+    {
+        "id": 7,
+        "nombre": "Lechuguin",
+        "precio": 6.55,
+        "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/3REV53527RABTL2YCEI3KJZWAM.jpg",
+        "descripcion": "Soy una fokin lechuga",
+        "categoria": "Concentración"
+    }
+]

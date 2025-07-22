@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomolec Pharma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Biomolec Pharma</h1>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="cart-icon" id="cartButton">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="cart-count" id="cartCount">0</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Nuevas Ofertas Especiales</h2>
+                    <p>Hasta 50% de descuento en productos seleccionados</p>
+                    <a href="#" class="btn">Ver Ofertas</a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container">
+            <section class="categories">
+                <h2>Categorías</h2>
+                <div class="category-list">
+                    <button class="category-btn active" data-category="todos">Todos</button>
+                    <button class="category-btn" data-category="Concentración">Concentración</button>
+                    <button class="category-btn" data-category="Calmantes">Calmantes</button>
+                </div>
+            </section>
+            
+            <section class="products-section">
+                <h2>Productos Destacados</h2>
+                <div class="products-grid" id="productsContainer">
+                    <div class="loading">Cargando productos...</div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeProductModal">&times;</span>
+            <div class="modal-product" id="modalProductContent">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal cart-modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeCartModal">&times;</span>
+            <h2><i class="fas fa-shopping-cart"></i> Tu Carrito</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Productos en carrito -->
+            </div>
+            <div class="cart-summary">
+                <div class="cart-total" id="cartTotal">Total: $0.00</div>
+                <div class="cart-actions">
+                    <button class="btn btn-outline" id="continueShopping">Seguir Comprando</button>
+                    <button class="btn btn-primary" id="checkoutButton">Finalizar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Biomolec Pharma</h3>
+                    <p>Tu tienda de confianza para productos de calidad a los mejores precios.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Biomolec Pharma. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
