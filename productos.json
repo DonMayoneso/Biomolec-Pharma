@@ -76,18 +76,6 @@
             "otros": "Modo de uso: Tomar 1 cápsula antes de dormir.\nContenido: 60 cápsulas.\nPrecauciones: No usar si se va a conducir o manejar maquinaria pesada."
         },
         "promocionados": [2, 3, 4]
-    },
-   {
-        "id": 7,
-        "nombre": "Lechuguin 2",
-        "precio": 6.55,
-        "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/3REV53527RABTL2YCEI3KJZWAM.jpg",
-        "descripcion": "Soy una fokin lechuga",
-        "categoria": "Concentración",
-        "descripciones": {
-            "principal": "Extracto natural de lechuga con propiedades relajantes y antioxidantes. Ideal para personas con estrés laboral o dificultades para dormir.",
-            "otros": "Modo de uso: Tomar 1 cápsula antes de dormir.\nContenido: 60 cápsulas.\nPrecauciones: No usar si se va a conducir o manejar maquinaria pesada."
-        },
-        "promocionados": [2, 3, 4]
-    },
+    }
 ]
+
