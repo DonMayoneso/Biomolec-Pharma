@@ -76,7 +76,7 @@ function cargarProductos() {
         });
 }
 
-// Renderizar productos en la página
+// Renderizar productos en la página con efecto flip
 function renderizarProductos() {
     if (!productos || productos.length === 0) {
         productsContainer.innerHTML = '<div class="empty">No hay productos disponibles</div>';
@@ -100,47 +100,124 @@ function renderizarProductos() {
         return;
     }
     
-    // Generar HTML de productos
+    // Generar HTML de productos con efecto flip
     productsContainer.innerHTML = '';
     productosFiltrados.forEach(producto => {
         const productCard = document.createElement('div');
         productCard.className = 'product-card';
         productCard.innerHTML = `
-            <img src="${producto.imagen}" alt="${producto.nombre}" class="product-image">
-            <div class="product-info">
-                <h3 class="product-title">${producto.nombre}</h3>
+            <div class="product-card-front">
+                <img src="${producto.imagen}" alt="${producto.nombre}" class="product-image">
+                <div class="product-name">${producto.nombre}</div>
+            </div>
+            <div class="product-card-back">
+                <div class="product-name">${producto.nombre}</div>
                 <div class="product-price">$${producto.precio.toFixed(2)}</div>
-                <p class="product-description">${producto.descripcion}</p>
-                <div class="product-actions">
-                    <button class="btn-details" onclick="abrirProducto(${producto.id})">Ver Detalles</button>
-                </div>
+                <div class="product-short-description">${producto.descripcion.substring(0, 100)}...</div>
             </div>
         `;
+        
+        // Evento para voltear la tarjeta
+        productCard.addEventListener('mouseenter', () => {
+            productCard.classList.add('flipped');
+        });
+        
+        productCard.addEventListener('mouseleave', () => {
+            productCard.classList.remove('flipped');
+        });
+        
+        // Evento para abrir el modal
+        productCard.addEventListener('click', (e) => {
+            if (!e.target.classList.contains('btn-details')) {
+                abrirProducto(producto.id);
+            }
+        });
+        
         productsContainer.appendChild(productCard);
     });
 }
 
-// Abrir modal de producto
+// Abrir modal de producto con nueva vista
 function abrirProducto(id) {
     const producto = productos.find(p => p.id === id);
     
     if (producto) {
+        // Obtener productos promocionados
+        const productosPromocionados = productos.filter(p => 
+            producto.promocionados.includes(p.id)
+        );
+        
         modalProductContent.innerHTML = `
             <img src="${producto.imagen}" alt="${producto.nombre}" class="modal-image">
-            <h2 class="modal-title">${producto.nombre}</h2>
-            <div class="modal-price">$${producto.precio.toFixed(2)}</div>
-            <p class="modal-description">${producto.descripcion}</p>
             
-            <div class="quantity-control">
-                <button class="quantity-btn" onclick="cambiarCantidad(-1)">-</button>
-                <input type="number" id="productQuantity" class="quantity-input" value="1" min="1">
-                <button class="quantity-btn" onclick="cambiarCantidad(1)">+</button>
+            <div class="modal-title-container">
+                <h2 class="modal-title">${producto.nombre}</h2>
+                <span class="product-code">Código: ${producto.id}</span>
             </div>
             
-            <button class="btn-add-to-cart" onclick="agregarAlCarrito(${producto.id})">
-                <i class="fas fa-shopping-cart"></i> Agregar al Carrito
-            </button>
+            <div class="modal-price">$${producto.precio.toFixed(2)}</div>
+            
+            <div class="description-tabs">
+                <div class="description-tab active" data-tab="descripcion">Descripción</div>
+                <div class="description-tab" data-tab="funcion">Para qué funciona</div>
+                <div class="description-tab" data-tab="otros">Otros detalles</div>
+            </div>
+            
+            <div class="description-content active" id="descripcion">
+                <p>${producto.descripcion}</p>
+            </div>
+            
+            <div class="description-content" id="funcion">
+                <p>${producto.descripciones.principal}</p>
+            </div>
+            
+            <div class="description-content" id="otros">
+                ${producto.descripciones.otros.split('\n').map(p => `<p>${p}</p>`).join('')}
+            </div>
+            
+            <div class="product-actions">
+                <div class="quantity-control">
+                    <button class="quantity-btn" onclick="cambiarCantidad(-1)">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <input type="number" id="productQuantity" class="quantity-input" value="1" min="1">
+                    <button class="quantity-btn" onclick="cambiarCantidad(1)">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                
+                <button class="btn btn-primary btn-add-to-cart" onclick="agregarAlCarrito(${producto.id})">
+                    <i class="fas fa-shopping-cart"></i> Agregar al Carrito
+                </button>
+            </div>
+            
+            <div class="related-products">
+                <h3>También te podría gustar</h3>
+                <div class="related-grid">
+                    ${productosPromocionados.map(p => `
+                        <div class="related-product" onclick="abrirProducto(${p.id})">
+                            <img src="${p.imagen}" alt="${p.nombre}">
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
         `;
+        
+        // Agregar funcionalidad a las pestañas
+        const tabs = modalProductContent.querySelectorAll('.description-tab');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remover clase activa de todas las pestañas
+                tabs.forEach(t => t.classList.remove('active'));
+                // Ocultar todos los contenidos
+                document.querySelectorAll('.description-content').forEach(c => c.classList.remove('active'));
+                
+                // Activar la pestaña clickeada
+                tab.classList.add('active');
+                const tabId = tab.dataset.tab;
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
         
         productModal.style.display = 'flex';
         document.body.style.overflow = 'hidden';
