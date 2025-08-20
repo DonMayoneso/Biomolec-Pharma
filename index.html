@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-fx</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Bio-fx</h1>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="cart-icon" id="cartButton">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="cart-count" id="cartCount">0</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Nuevas Ofertas Especiales</h2>
+                    <p>Hasta 50% de descuento en productos seleccionados</p>
+                    <a href="#" class="btn">Ver Ofertas</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Nueva sección: ¿Por qué elegirnos? -->
+        <section class="why-choose-us">
+            <div class="container">
+                <h2>¿Por qué elegir Bio-fx?</h2>
+                <div class="why-content">
+                    <div class="why-text">
+                        <h3>Medicina Funcional de Vanguardia</h3>
+                        <p>En Bio-fx revolucionamos el cuidado de la salud con productos basados en la medicina funcional, abordando las causas fundamentales de las condiciones de salud en lugar de solo tratar los síntomas.</p>
+                        
+                        <div class="benefits">
+                            <div class="benefit">
+                                <i class="fas fa-flask"></i>
+                                <h4>Innovación Científica</h4>
+                                <p>Formulaciones respaldadas por investigación de última generación</p>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-leaf"></i>
+                                <h4>Ingredientes Naturales</h4>
+                                <p>Productos elaborados con componentes 100% naturales y sostenibles</p>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-user-md"></i>
+                                <h4>Enfoque Personalizado</h4>
+                                <p>Soluciones adaptadas a tus necesidades específicas de salud</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn btn-secondary">Conoce más</a>
+                    </div>
+                    <div class="why-image">
+                        <img src="assets/productos/imgtest.jpg" alt="Medicina funcional Bio-fx">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container">
+            <section class="categories">
+                <h2>Categorías</h2>
+                <div class="category-list">
+                    <button class="category-btn active" data-category="todos">
+                        <img src="assets/productos/imgtest.jpg" alt="Todos" class="category-icon">
+                        <span>Todos los productos</span>
+                    </button>
+                    <button class="category-btn" data-category="Concentración">
+                        <img src="assets/productos/imgtest.jpg" alt="Concentración" class="category-icon">
+                        <span>Concentración</span>
+                    </button>
+                    <button class="category-btn" data-category="Calmantes">
+                        <img src="assets/productos/imgtest.jpg" alt="Calmantes" class="category-icon">
+                        <span>Calmantes</span>
+                    </button>
+                </div>
+            </section>
+            
+            <section class="products-section">
+                <h2>Nuestros Productos</h2>
+                <div class="products-grid" id="productsContainer">
+                    <div class="loading">Cargando productos...</div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeProductModal">&times;</span>
+            <div class="modal-product" id="modalProductContent">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal cart-modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeCartModal">&times;</span>
+            <h2><i class="fas fa-shopping-cart"></i> Tu Carrito</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Productos en carrito -->
+            </div>
+            <div class="cart-summary">
+                <div class="cart-total" id="cartTotal">Total: $0.00</div>
+                <div class="cart-actions">
+                    <button class="btn btn-outline" id="continueShopping">Seguir Comprando</button>
+                    <button class="btn btn-primary" id="checkoutButton">Finalizar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sección de Testimonios -->
+<section class="testimonials-section">
+    <div class="container">
+        <h2>Testimonios de Nuestros Clientes</h2>
+        <p class="testimonials-subtitle">Descubre la diferencia Bio-fx en sus propias palabras</p>
+        
+        <div class="testimonials-creative" id="testimonialsCreative">
+            <div class="loading">Cargando testimonios...</div>
+        </div>
+    </div>
+</section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Bio-fx</h3>
+                    <p>Tu tienda de confianza para productos de medicina funcional de calidad a los mejores precios.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Ciudad</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> info@bio-fx.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Bio-fx. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

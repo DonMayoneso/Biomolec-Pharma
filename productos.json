@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "codigo": "ECADPT001",
+        "disponible": true,
+        "nombre": "Adaptessens",
+        "precio": 15.99,
+        "imagen": "assets/productos/adaptessens.png",
+        "logo": "assets/logos/adaptessens.png",
+        "descripcion": "Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Este producto está diseñado para mejorar la concentración y el enfoque mental. Contiene ingredientes naturales que ayudan a mantener la claridad mental durante períodos prolongados de actividad intelectual.",
+            "otros": "Modo de uso: Tomar 1 cápsula al día con las comidas.\nContenido: 60 cápsulas.\nPrecauciones: No exceder la dosis recomendada. Consultar con un médico si está embarazada o en período de lactancia."
+        },
+        "promocionados": [2, 3, 5]
+    },
+    {
+        "id": 2,
+        "codigo": "ECCMS002",
+        "disponible": true,
+        "nombre": "Calmessens",
+        "precio": 10.99,
+        "imagen": "assets/productos/calmessens.png",
+        "logo": "assets/logos/calmessens.png",
+        "descripcion": "Fórmula con Colina, Vitamina B1, Niacina, Ácido Pantoténico y Manganeso. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Calmantes",
+        "descripciones": {
+            "principal": "Diseñado para reducir el estrés y la ansiedad, promoviendo un estado de calma y relajación. Contiene ingredientes que actúan sobre el sistema nervioso central para mejorar el bienestar emocional.",
+            "otros": "Modo de uso: Tomar 2 cápsulas al día, preferiblemente por la mañana y por la noche.\nContenido: 90 cápsulas.\nPrecauciones: No usar en menores de 12 años. Consultar con un médico si está tomando otros medicamentos."
+        },
+        "promocionados": [1, 4, 6]
+    },
+    {
+        "id": 3,
+        "codigo": "ECCLS001",
+        "disponible": true,
+        "nombre": "Colessens",
+        "precio": 9.99,
+        "imagen": "assets/productos/colessens.png",
+        "logo": "assets/logos/colessens.png",
+        "descripcion": "Fórmula con Bergamota, Ajo, Corteza de Pino, Saccharum officinarum, Magnesio y Vitaminas esenciales. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Mejora la circulación cerebral y la memoria. Contiene antioxidantes que protegen las células cerebrales y mejoran la función cognitiva.",
+            "otros": "Modo de uso: Tomar 1 cápsula dos veces al día.\nContenido: 60 cápsulas.\nPrecauciones: Evitar en caso de alergia a cítricos. Consultar con médico si tiene problemas de coagulación."
+        },
+        "promocionados": [1, 5, 6]
+    },
+    {
+        "id": 4,
+        "codigo": "ECCRS002",
+        "disponible": true,
+        "nombre": "Coraessens",
+        "precio": 7.99,
+        "imagen": "assets/productos/coraessens.png",
+        "logo": "assets/logos/coraessens.png",
+        "descripcion": "Fórmula con Corazón Bovino liofilizado, Magnesio, Metilcobalamina, Piridoxal-5-Fosfato y L-5 Metiltetrahidrofolato. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Calmantes",
+        "descripciones": {
+            "principal": "Favorece la salud cardiovascular y reduce la fatiga mental. Contiene nutrientes esenciales para el funcionamiento óptimo del corazón y el cerebro.",
+            "otros": "Modo de uso: Tomar 1 cápsula al día por la mañana.\nContenido: 30 cápsulas.\nPrecauciones: No usar si es alérgico a productos bovinos. Consultar con médico si tiene problemas cardíacos."
+        },
+        "promocionados": [2, 5, 6]
+    },
+    {
+        "id": 5,
+        "codigo": "ECCURCE001",
+        "disponible": true,
+        "nombre": "Curcetin",
+        "precio": 5.55,
+        "imagen": "assets/productos/curcetin.png",
+        "logo": "assets/logos/curcetin.png",
+        "descripcion": "Fórmula con Magnesio, Vitamina C, Curcuma longa l y Quercitina. Es un producto de soporte nutricional cuyo propósito es adicionar a la dieta normal, siendo fuente concentrada de nutrientes y otras sustancias con efecto fisiológico o nutricional.",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Combate la inflamación y mejora la función cognitiva. Contiene curcumina, un potente antiinflamatorio natural que ayuda a proteger el cerebro.",
+            "otros": "Modo de uso: Tomar 2 cápsulas al día con alimentos.\nContenido: 120 cápsulas.\nPrecauciones: Puede causar malestar estomacal en personas sensibles."
+        },
+        "promocionados": [1, 3, 4]
+    },
+    {
+        "id": 6,
+        "codigo": "ECLCH006",
+        "disponible": true,
+        "nombre": "Lechuguin",
+        "precio": 6.55,
+        "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/3REV53527RABTL2YCEI3KJZWAM.jpg",
+        "logo": "assets/logos/vegezym.png",
+        "descripcion": "Es una lechuga, realmente no hay mucha ciencia detrás de ella.",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Literalmente es una lechuga.",
+            "otros": "Modo de uso: En la cocina, supongo.\nContenido: Una lechuga.\nPrecauciones: No dejar usar maquinaria pesada a la Lechuga."
+        },
+        "promocionados": [2, 3, 4]
+    },
+    {
+        "id": 9,
+        "codigo": "ECEJM009",
+        "disponible": true,
+        "nombre": "Ejemplo",
+        "precio": 0.99,
+        "imagen": "assets/productos/imgtest.jpg",
+        "logo": "assets/logos/curcetin.png",
+        "descripcion": "Descripción de ejemplo.",
+        "categoria": "Calmantes",
+        "descripciones": {
+            "principal": "Descripcion principal.",
+            "otros": "Otros."
+        },
+        "promocionados": [6, 9, 1]
+    }
+]
