@@ -110,7 +110,7 @@
     {
         "id": 9,
         "codigo": "ECEJM009",
-        "disponible": true,
+        "disponible": false,
         "nombre": "Ejemplo",
         "precio": 0.99,
         "imagen": "assets/productos/imgtest.jpg",
@@ -125,4 +125,5 @@
                 "descuento": 0,
         "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada."
     }
+
 ]
