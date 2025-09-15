@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "codigo": "8039-ALE-0818",
+        "disponible": true,
+        "nombre": "Adaptessens",
+        "precio": 36,
+        "imagen": "assets/productos/adaptessens.png",
+        "logo": "assets/logos/adaptessens.png",
+        "descripcion": "**Suplemento dietario - NUTRABIOTICS®** \nFórmula con Maral, Ashwagandha, Schisandra, Eleuthero, Biotina y minerales esenciales como zinc y manganeso.",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Aporta nutrientes que contribuyen al sistema inmunitario, la función cognitiva, el metabolismo energético y al mantenimiento de niveles normales de testosterona en sangre.",
+            "otros": "**Modo de uso:** Info a cambiar.\n**Contenido:** 90 cápsulas.\n**Precauciones**: Info a cambiar."
+        },
+        "promocionados": [2, 3, 5],
+        "descuento": 50,
+        "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada, **Consulte con su profesional de salud.**"
+    },
+    {
+        "id": 2,
+        "codigo": "ECCMS002",
+        "disponible": true,
+        "nombre": "Calmessens",
+        "precio": 34,
+        "imagen": "assets/productos/calmessens.png",
+        "logo": "assets/logos/calmessens.png",
+        "descripcion": "**Suplemento Dietario – NUTRABIOTICS®** \nFórmula con colina, vitamina B1, niacina, ácido pantoténico y manganeso. ",
+        "categoria": "Calmantes",
+        "descripciones": {
+            "principal": "Favorece la memoria, la concentración y la relajación, contribuyendo a una mejor calidad del sueño. Apoya en situaciones de estrés, fatiga y agitación, además de ser un aliado frente a problemas de atención y memoria.",
+            "otros": "**Modo de uso:** Info a cambiar.\nContenido: 60 cápsulas.\nPrecauciones: Info a cambiar"
+        },
+        "promocionados": [1, 4, 6],
+                "descuento": 0,
+        "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada, **Consulte con su profesional de salud.**"
+    },
+    {
+        "id": 3,
+        "codigo": "ECCLS001",
+        "disponible": true,
+        "nombre": "Colessens",
+        "precio": 43,
+        "imagen": "assets/productos/colessens.png",
+        "logo": "assets/logos/colessens.png",
+        "descripcion": "**Suplemento Dietario – NUTRABIOTICS®** \nFórmula con bergamota, ajo, corteza de pino, Saccharum officinarum, magnesio y vitaminas esenciales.",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Ayuda a reducir y modular los niveles de colesterol y triglicéridos, siendo una alternativa de soporte en casos de intolerancia a estatinas, hiperlipidemia, hipercolesterolemia y dislipidemias mixtas.",
+            "otros": "Modo de uso: Info a cambiar \nContenido: 60 cápsulas.\nPrecauciones: Info a cambiar"
+        },
+        "promocionados": [1, 5, 6],
+                "descuento": 0,
+        "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada, **Consulte con su profesional de salud.**"
+    },
+    {
+        "id": 4,
+        "codigo": "ECCRS002",
+        "disponible": true,
+        "nombre": "Coraessens",
+        "precio": 36,
+        "imagen": "assets/productos/coraessens.png",
+        "logo": "assets/logos/coraessens.png",
+        "descripcion": "**Suplemento Dietario – NUTRABIOTICS®** \nFórmula con corazón bovino liofilizado, magnesio, metilcobalamina, piridoxal-5-fosfato y L-5 metiltetrahidrofolato. ",
+        "categoria": "Calmantes",
+        "descripciones": {
+            "principal": "Apoya la salud cardiovascular y hormonal, siendo útil después de procesos de detoxificación. Favorece la función hepática y puede contribuir en casos relacionados con desequilibrios hormonales, como menstruaciones abundantes, ciclos cortos, dismenorrea, infertilidad, mastalgia o alteraciones en ovarios, útero y mama.",
+            "otros": "Modo de uso: Info a cambiar \nContenido:90 cápsulas. \nPrecauciones: Info a cambiar"
+        },
+        "promocionados": [2, 5, 6],
+                "descuento": 0,
+        "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada, **Consulte con su profesional de salud.**"
+    },
+    {
+        "id": 5,
+        "codigo": "ECCURCE001",
+        "disponible": true,
+        "nombre": "Curcetin",
+        "precio": 47,
+        "imagen": "assets/productos/curcetin.png",
+        "logo": "assets/logos/curcetin.png",
+        "descripcion": "**Suplemento Dietario – NUTRABIOTICS®** \nFórmula con magnesio, vitamina C, Curcuma longa L. y quercetina. ",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Su combinación natural aporta acción antioxidante y contribuye a modular procesos inflamatorios crónicos, brindando soporte nutricional complementario al organismo.",
+            "otros": "Modo de uso: Info a cambiar \nContenido: 90 cápsulas.\nPrecauciones: Info a cambiar"
+        },
+        "promocionados": [1, 3, 4],
+                "descuento": 0,
+        "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada, **Consulte con su profesional de salud.**"
+    },
+    {
+        "id": 6,
+        "codigo": "ECLCH006",
+        "disponible": false,
+        "nombre": "Lechuguin",
+        "precio": 6.55,
+        "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/3REV53527RABTL2YCEI3KJZWAM.jpg",
+        "logo": "assets/logos/vegezym.png",
+        "descripcion": "Es una lechuga, realmente no hay mucha ciencia detrás de ella.",
+        "categoria": "Concentración",
+        "descripciones": {
+            "principal": "Literalmente es una lechuga.",
+            "otros": "Modo de uso: En la cocina, supongo.\nContenido: Una lechuga.\nPrecauciones: No dejar usar maquinaria pesada a la Lechuga."
+        },
+        "promocionados": [2, 3, 4],
+                "descuento": 69,
+        "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada. \nConsulte con su profesional de salud."
+    },
+    {
+        "id": 9,
+        "codigo": "ECEJM009",
+        "disponible": false,
+        "nombre": "Ejemplo",
+        "precio": 0.99,
+        "imagen": "assets/productos/imgtest.jpg",
+        "logo": "assets/logos/curcetin.png",
+        "descripcion": "Descripción de ejemplo.",
+        "categoria": "Calmantes",
+        "descripciones": {
+            "principal": "Descripcion principal.",
+            "otros": "Otros."
+        },
+        "promocionados": [6, 9, 1],
+                "descuento": 0,
+        "disclaimer": "El producto no es adecuado para ser consumido como única fuente de alimento. No supera la dosis recomendada, Consulte con su profesional de salud."
+    }
+]

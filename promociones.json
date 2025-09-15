@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "BioFX: Tu aliado en salud y bienestar",
+    "descripcion": "Suplementos y vitaminas de alta calidad, respaldados por ciencia y medicina funcional.",
+    "botonTexto": "Explora nuestros productos",
+    "botonUrl": "#ofertas",
+    "imagen": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "textoAlineacion": "izquierda",
+    "imagenAlineacion": "derecha",
+    "fondo": "gradiente",
+    "colorTexto": "#ffffff"
+  },
+  {
+    "id": 2,
+    "titulo": "Descubre nuestras HERRAMIENTAS más populares",
+    "descripcion": "Apoya tu sistema inmunológico, digestivo y energía diaria",
+    "botonTexto": "Descubrir",
+    "botonUrl": "#productos",
+    "imagen": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "textoAlineacion": "derecha",
+    "imagenAlineacion": "izquierda",
+    "fondo": "gradiente",
+    "colorTexto": "#ffffff"
+  },
+  {
+    "id": 3,
+    "titulo": "Promoción exclusiva por tiempo limitado",
+    "descripcion": "Envío gratis por lanzamiento de BioFX",
+    "botonTexto": "Aprovechar oferta",
+    "botonUrl": "#calmantes",
+    "imagen": "https://www.nosequeestudiar.net/site/assets/files/1695521/de-que-se-trata-la-carrera-de-medicina.jpg",
+    "textoAlineacion": "centro",
+    "imagenAlineacion": "centro",
+    "fondo": "gradiente",
+    "colorTexto": "#ffffff"
+  },
+    {
+    "id": 4,
+    "titulo": "Respaldado por medicina funcional",
+    "descripcion": "Cada producto seleccionado pensando en tu salud integral",
+    "botonTexto": "Conócenos mejor",
+    "botonUrl": "#calmantes",
+    "imagen": "https://www.nosequeestudiar.net/site/assets/files/1695521/de-que-se-trata-la-carrera-de-medicina.jpg",
+    "textoAlineacion": "center",
+    "imagenAlineacion": "izquierda",
+    "fondo": "gradiente",
+    "colorTexto": "#ffffff"
+  }
+]

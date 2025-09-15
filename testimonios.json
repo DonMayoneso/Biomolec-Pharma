@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Jorge G",
+        "testimonio": "La atención fue excelente desde el primer contacto: me explicaron claramente los beneficios antiinflamatorios de Curcetin (la combinación de cúrcuma, quercetina, magnesio y vitamina C es fantástica). El envío fue rapidísimo, lo recibí en menos de 24 horas. Y venía con una sorpresa. Fue un detalle inesperado que me encantó.",
+        "imagen": "assets/extras/jorgeg.jpg",
+        "valoracion": 5
+    },
+    {
+        "id": 2,
+        "nombre": "Jennifer G",
+        "testimonio": "Pedí Glutaceon porque buscaba un buen antioxidante para mi. El equipo fue muy amable y profesional, resolvió todas mis dudas. El paquete llegó al día siguiente y contenía una tarjeta de agradecimiento. ¡Pequeños detalles que generan mucha confianza!",
+        "imagen": "assets/extras/jenniferg.jpg",
+        "valoracion": 5
+    },
+    {
+        "id": 3,
+        "nombre": "Fernanda A",
+        "testimonio": "La atención desde el call center fue impecable: me recomendaron Vegezym por mis problemas digestivos y me explicaron cómo sus enzimas me ayudarían. En menos dos días ya tenía el producto en casa (vivo en Provincia), y dentro hubo una bolsita con barritas saludables como obsequio. Un gesto muy agradable.",
+        "imagen": "assets/extras/fernandaa.jpg",
+        "valoracion": 4
+    },
+    {
+        "id": 4,
+        "nombre": "Juan Pablo M",
+        "testimonio": "Compré DKMulsion porque necesitaba un suplemento de vitamina D y K para fortalecer mis huesos. Desde el call center me atendieron con muchísima paciencia, explicándome cómo tomarlo y resolviendo todas mis dudas. El pedido llegó al siguiente día, perfectamente empacado. Me sentí muy bien atendido y definitivamente volveré a comprar.",
+        "imagen": "assets/extras/juanpablom.jpg",
+        "valoracion": 5
+    },
+    {
+        "id": 5,
+        "nombre": "Lizeth T",
+        "testimonio": "Estaba buscando un suplemento para mejorar mis niveles de hierro y me recomendaron Hemogest. La atención fue excelente, me explicaron sus beneficios para el sistema circulatorio y la vitalidad. Hice el pedido por BioFX y el proceso fue muy sencillo. En menos de 48 horas ya lo tenía en mis manos.",
+        "imagen": "assets/extras/lizetht.jpg",
+        "valoracion": 5
+    }
+]
